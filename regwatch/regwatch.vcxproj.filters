@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="regwatch.cpp" />
+    <ClCompile Include="reg_accessor.cpp">
+      <Filter>registry\accessor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="scope_guard">
+      <UniqueIdentifier>{9ba171cc-abd0-44de-9d05-76f0f2b25ff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="registry">
+      <UniqueIdentifier>{859be46c-6068-49ff-8750-b3acfab0d1ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="registry\accessor">
+      <UniqueIdentifier>{9459bb72-d4ea-45fa-a18d-aaa7657a1811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="registry\helpers">
+      <UniqueIdentifier>{64ffe2a8-f453-48c4-bacf-a877df497fb8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scope_guard.h">
+      <Filter>scope_guard</Filter>
+    </ClInclude>
+    <ClInclude Include="reg_accessor_intf.h">
+      <Filter>registry\accessor</Filter>
+    </ClInclude>
+    <ClInclude Include="reg_accessor.h">
+      <Filter>registry\accessor</Filter>
+    </ClInclude>
+    <ClInclude Include="reg_handle.h">
+      <Filter>registry\helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
